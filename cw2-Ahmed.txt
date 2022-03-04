@@ -1,0 +1,13 @@
+class HelloWorld {
+    public static void main(String[] args) {
+     
+        
+    int budget = 20 ;  
+    System.out.println(" Can I buy the gift : " + (budget >= 30 && budget <= 80) );
+    
+    int totalbudget = budget + 20;
+    System.out.println(" Can I buy the gift with 20 KD : " + (totalbudget >= 30 && totalbudget <= 80) );
+    
+    
+    }
+}
